@@ -53,7 +53,6 @@ body {
   line-height: 1.55;
   font-feature-settings: "ss01", "tnum";
   word-break: keep-all;
-  overflow-wrap: break-word;
 }
 
 img { display: block; max-width: 100%; height: auto; }
@@ -155,8 +154,8 @@ a { color: inherit; }
 
 .display {
   margin: 0;
-  font-size: clamp(40px, 6vw, 76px);
-  line-height: 1.04;
+  font-size: clamp(32px, 4.4vw, 54px);
+  line-height: 1.08;
   letter-spacing: -0.025em;
   font-weight: 700;
   color: var(--ink);
