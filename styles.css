@@ -52,6 +52,8 @@ body {
   text-rendering: optimizeLegibility;
   line-height: 1.55;
   font-feature-settings: "ss01", "tnum";
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 img { display: block; max-width: 100%; height: auto; }
